@@ -1,6 +1,7 @@
 package com.example.RoomRentingServiceThesis.repository;
 
-import com.example.entity.Owner;
+
+import com.example.RoomRentingServiceThesis.entity.Owner;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

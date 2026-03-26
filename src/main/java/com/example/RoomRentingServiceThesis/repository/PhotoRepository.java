@@ -1,6 +1,7 @@
 package com.example.RoomRentingServiceThesis.repository;
 
-import com.example.entity.Photo;
+
+import com.example.RoomRentingServiceThesis.entity.Photo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
