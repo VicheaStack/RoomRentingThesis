@@ -22,7 +22,6 @@ public record RoomResponse(
     Integer totalBookings,
     Double averageRating,
     OwnerSummary owner,
-    List<String> amenities,
-    List<String> photos,
-    LocalDateTime createdAt
+    List<Long> amenities,
+    List<Long> photos
 ) {}
