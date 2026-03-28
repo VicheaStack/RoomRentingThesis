@@ -1,12 +1,14 @@
 package com.example.RoomRentingServiceThesis.service;
 
+import com.example.RoomRentingServiceThesis.entity.Renter;
+
 public interface RenterService {
 
-    void createRenter(String fullName, String email, String phone, String password);
+    Renter createRenter(String fullName, String email, String phone, String password);
 
-    Object getRenterById(Long renterId);
+    Renter getRenterById(Long renterId);
 
-    void updateRenter(Long renterId, String fullName, String email, String phone);
+    Renter updateRenter(Long renterId, String fullName, String email, String phone);
 
     void deactivateRenter(Long renterId);
 }
