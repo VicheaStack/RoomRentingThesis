@@ -9,6 +9,7 @@ import java.util.Optional;
 
 public interface RenterRepository extends JpaRepository<Renter, Long> {
 
+    List<Renter> findByFullNameContainingIgnoreCase(String fullName);
     Optional<Renter> findByEmail(String email);
 
     boolean existsByEmail(String email);
