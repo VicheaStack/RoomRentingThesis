@@ -1,9 +1,11 @@
 package com.example.RoomRentingServiceThesis.service;
 
-import java.util.List;
+import com.example.RoomRentingServiceThesis.entity.Amenity;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 public interface AmenityService {
 
-    List<Object> getAllActiveAmenities();
+    Page<Amenity> getAllActiveAmenities(Pageable pageable);
 
 }
